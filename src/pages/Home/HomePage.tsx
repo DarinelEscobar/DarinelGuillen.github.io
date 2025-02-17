@@ -38,7 +38,9 @@ const HomePage: React.FC = () => {
 
       <SectionWrapper index={0}>
         <div ref={(el) => setSectionRef(el, 0)}>
-          <MainContent />
+          {/* <MainContent /> */}
+          <Skills />
+
         </div>
       </SectionWrapper>
 
